@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!--父项目配置信息-->
+    <parent>
+        <artifactId>mgrmoney-app</artifactId>
+        <groupId>com.uek.project</groupId>
+        <version>1.0</version>
+    </parent>
+    <!--本项目的基本信息-->
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>entity</artifactId>
+
+    <!--依赖配置-->
+    <dependencies>
+        <!--lombok依赖，为了方便实体类-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <!-- junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13</version>
+            <scope>test</scope>
+        </dependency>
+        <!--日志处理Apache log4j-->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+
+
+    </dependencies>
+
+</project>
